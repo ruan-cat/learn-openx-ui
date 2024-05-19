@@ -1,7 +1,7 @@
 {
-  "name": "learn-openx-ui",
+  "name": "@openxui-rc/root",
   "version": "1.0.0",
-  "description": "https://zhuanlan.zhihu.com/p/642832357",
+  "description": "learn-openx-ui https://zhuanlan.zhihu.com/p/642832357",
   "private": true,
   "main": "index.js",
   "scripts": {
