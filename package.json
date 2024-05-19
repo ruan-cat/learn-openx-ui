@@ -7,7 +7,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:ui": "pnpm -F @openx-rc/ui... run build"
+    "build:ui": "pnpm -F @openx-rc/ui... run build",
+    "build:ui-by-path": "pnpm -F ./packages/** run build"
   },
   "keywords": [],
   "author": "",
