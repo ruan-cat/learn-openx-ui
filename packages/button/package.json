@@ -30,13 +30,13 @@
   "bugs": {
     "url": "https://github.com/gkn1234/openx-ui/issues"
   },
-  "main": "",
-  "module": "",
+  "main": "./dist/openx-rc-button.umd.js",
+  "module": "./dist/openx-rc-button.mjs",
   "types": "",
   "exports": {
     ".": {
-      "require": "",
-      "module": "",
+      "require": "./dist/openx-rc-button.umd.js",
+      "module": "./dist/openx-rc-button.mjs",
       "types": ""
     }
   },
