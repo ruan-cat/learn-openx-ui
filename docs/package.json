@@ -1,5 +1,5 @@
 {
-  "name": "@openxui-rc/docs",
+  "name": "docs",
   "private": true,
   "scripts": {
     "dev": "echo dev",

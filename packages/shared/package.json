@@ -1,5 +1,5 @@
 {
-  "name": "@openxui-rc/shared",
+  "name": "shared",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
