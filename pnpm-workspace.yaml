@@ -3,4 +3,6 @@ packages:
   - "docs"
   # packages 目录下的每一个目录都作为一个独立的模块
   - "packages/**"
+  # 单独的demo目录 也作为一个独立的模块
+  - "demo"
   - "temp-pkg"
