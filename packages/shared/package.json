@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "echo build",
+    "build": "vite build",
     "test": "echo test"
   },
   "dependencies": {
@@ -31,13 +31,13 @@
   "bugs": {
     "url": "https://github.com/gkn1234/openx-ui/issues"
   },
-  "main": "",
-  "module": "",
+  "main": "./dist/openx-rc-shared.umd.js",
+  "module": "./dist/openx-rc-shared.mjs",
   "types": "",
   "exports": {
     ".": {
-      "require": "",
-      "module": "",
+      "require": "./dist/openx-rc-shared.umd.js",
+      "module": "./dist/openx-rc-shared.mjs",
       "types": ""
     }
   },
