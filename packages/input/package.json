@@ -2,17 +2,46 @@
   "name": "@openx-rc/input",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo build",
+    "test": "echo test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/lodash-es": "^4.17.12"
   },
   "dependencies": {
     "@openx-rc/shared": "workspace:^"
-  }
+  },
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "keywords": [
+    "vue",
+    "ui",
+    "component library"
+  ],
+  "author": "OpenX",
+  "license": "MIT",
+  "homepage": "https://github.com/gkn1234/openx-ui/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkn1234/openx-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gkn1234/openx-ui/issues"
+  },
+  "main": "",
+  "module": "",
+  "types": "",
+  "exports": {
+    ".": {
+      "require": "",
+      "module": "",
+      "types": ""
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
 }

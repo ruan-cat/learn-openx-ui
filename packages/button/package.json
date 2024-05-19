@@ -2,7 +2,6 @@
   "name": "@openx-rc/button",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "echo build",
     "test": "echo test"
@@ -12,5 +11,37 @@
   },
   "dependencies": {
     "@openx-rc/shared": "workspace:^"
-  }
+  },
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "keywords": [
+    "vue",
+    "ui",
+    "component library"
+  ],
+  "author": "OpenX",
+  "license": "MIT",
+  "homepage": "https://github.com/gkn1234/openx-ui/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkn1234/openx-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gkn1234/openx-ui/issues"
+  },
+  "main": "",
+  "module": "",
+  "types": "",
+  "exports": {
+    ".": {
+      "require": "",
+      "module": "",
+      "types": ""
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
 }
