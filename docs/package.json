@@ -1,12 +1,10 @@
 {
-  "name": "learn-openx-ui",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@openxui/docs",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "echo dev",
+    "build": "echo build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {},
+  "devDependencies": {}
 }
