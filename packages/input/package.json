@@ -1,5 +1,5 @@
 {
-  "name": "input",
+  "name": "@openx-rc/input",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

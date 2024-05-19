@@ -1,8 +1,9 @@
 {
-  "name": "root",
+  "name": "@openx-rc/root",
   "version": "1.0.0",
   "description": "learn-openx-ui https://zhuanlan.zhihu.com/p/642832357",
   "private": true,
+  "packageManager": "pnpm@8.15.8",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

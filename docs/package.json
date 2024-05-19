@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "@openx-rc/docs",
   "private": true,
   "scripts": {
     "dev": "echo dev",
