@@ -1,7 +1,7 @@
 {
   "name": "@openx-rc/root",
   "version": "1.0.0",
-  "description": "learn-openx-ui https://zhuanlan.zhihu.com/p/642832357",
+  "description": "learn-openx-ui https://juejin.cn/post/7254341178258505788",
   "private": true,
   "packageManager": "pnpm@8.15.8",
   "main": "index.js",
