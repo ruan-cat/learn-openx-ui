@@ -1,5 +1,5 @@
 {
-  "name": "learn-openx-ui",
+  "name": "@openxui/shared",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.17.4",
+    "lodash": "^4.17.21"
+  }
 }
