@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vue-tsc": "^2.0.6"
+  },
+  "dependencies": {
+    "@openx-rc/ui": "workspace:^"
   }
 }
