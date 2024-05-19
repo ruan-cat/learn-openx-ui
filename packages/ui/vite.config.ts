@@ -14,7 +14,15 @@ export default defineConfig({
 
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖
-      external: [/lodash.*/],
+
+      external: [
+        /lodash.*/,
+        /**
+         * 记录一下vite打包vue3组件库，使用组件库时报 (reading 'isCE') 错误问题
+         * @see https://segmentfault.com/a/1190000041416388
+         */
+        "vue",
+      ],
 
       output: {},
     },
