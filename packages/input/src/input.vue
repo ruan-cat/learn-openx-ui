@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // packages/input/src/input.vue
-import { hello } from "@openxui/shared";
+import { hello } from "@openx-rc/shared";
 
 withDefaults(
   defineProps<{
