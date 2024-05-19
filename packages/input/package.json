@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "echo build",
+    "build": "vite build",
     "test": "echo test"
   },
   "devDependencies": {
@@ -29,16 +29,6 @@
   },
   "bugs": {
     "url": "https://github.com/gkn1234/openx-ui/issues"
-  },
-  "main": "",
-  "module": "",
-  "types": "",
-  "exports": {
-    ".": {
-      "require": "",
-      "module": "",
-      "types": ""
-    }
   },
   "files": [
     "dist",
