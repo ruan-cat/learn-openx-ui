@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/lodash-es": "^4.17.12"
+  },
+  "dependencies": {
+    "@openx-rc/shared": "workspace:^"
   }
 }
