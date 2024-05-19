@@ -9,7 +9,7 @@ export default defineConfig({
     lib: {
       entry: "./src/index.ts",
       name: "OpenxRcUIInput",
-      fileName: "openx-rc-Input",
+      fileName: "openx-rc-input",
     },
     minify: false,
     rollupOptions: {
