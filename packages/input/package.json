@@ -30,6 +30,16 @@
   "bugs": {
     "url": "https://github.com/gkn1234/openx-ui/issues"
   },
+  "main": "./dist/openx-rc-input.umd.js",
+  "module": "./dist/openx-rc-input.mjs",
+  "types": "",
+  "exports": {
+    ".": {
+      "require": "./dist/openx-rc-input.umd.js",
+      "module": "./dist/openx-rc-input.mjs",
+      "types": ""
+    }
+  },
   "files": [
     "dist",
     "README.md"
