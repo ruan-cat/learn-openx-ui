@@ -1,0 +1,36 @@
+{
+  // 继承基础配置
+  "extends": "../../tsconfig.base.json",
+  // "extends": "../../tsconfig.src.json",
+  "compilerOptions": {
+    "composite": true,
+    "rootDir": ".",
+    // 作为自己建立的，子项目的tsconfig.json架构，仍旧需要提供一些基础的库说明，类型引用声明
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "types": [
+      "node"
+    ],
+    /** 
+      作废 不认为子配置，能够自己配置相对于子项目根路径的。路径别名。
+    */
+    "paths": {
+      "@openx-rc/*": [
+        // "packages/*/src"
+        "../../packages/*/src"
+      ],
+      "@/*": [
+        "src/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+    },
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

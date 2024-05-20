@@ -11,11 +11,15 @@
   "files": [],
   "references": [
     // 聚合 ts project
+    // 聚合的子项目配置，有先后顺序
+    {
+      "path": "./packages/input/tsconfig.input-use.json"
+    },
     {
       "path": "./tsconfig.src.json"
     },
     {
       "path": "./tsconfig.node.json"
-    }
+    },
   ],
 }
