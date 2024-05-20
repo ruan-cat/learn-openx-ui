@@ -1,0 +1,11 @@
+{
+	"recommendations": [
+		"esbenp.prettier-vscode",
+		// vue3的 .vue SFCs 的 LSP 语言支持服务
+		"Vue.volar",
+	],
+	"unwantedRecommendations": [
+		// 不使用该插件
+		"Vue.vscode-typescript-vue-plugin"
+	]
+}
