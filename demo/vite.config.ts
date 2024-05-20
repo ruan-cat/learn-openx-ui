@@ -13,6 +13,11 @@ export default defineConfig({
         find: /^@openx-rc\/(.+)$/,
         replacement: join(__dirname, "..", "packages", "$1", "src"),
       },
+
+      {
+        find: /^@input\/components\/(.+)$/,
+        replacement: join(__dirname, "../packages/input/src/components/", "$1"),
+      },
     ],
   },
 });

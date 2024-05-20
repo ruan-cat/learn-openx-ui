@@ -12,9 +12,10 @@
   "references": [
     // 聚合 ts project
     // 聚合的子项目配置，有先后顺序
-    {
-      "path": "./packages/input/tsconfig.input-use.json"
-    },
+    // 不考虑继续聚合子项目提供的配置了
+    // {
+    //   "path": "./packages/input/tsconfig.input-use.json"
+    // },
     {
       "path": "./tsconfig.src.json"
     },

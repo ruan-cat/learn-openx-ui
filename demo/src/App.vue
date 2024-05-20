@@ -1,8 +1,12 @@
 <script setup lang="ts">
+// demo/src/App.vue
+import { Button, Input, SimpleShowInput } from "@openx-rc/ui";
+
 import HelloWorld from "./components/HelloWorld.vue";
 
-// demo/src/App.vue
-import { Button, Input } from "@openx-rc/ui";
+import { ref } from "vue";
+
+const simpleShowInput = ref("你好");
 </script>
 
 <template>
@@ -19,6 +23,8 @@ import { Button, Input } from "@openx-rc/ui";
 
     <Button>1111</Button>
     <Input />
+
+    <SimpleShowInput v-model="simpleShowInput" />
   </section>
 </template>
 
