@@ -6,10 +6,11 @@
   "packageManager": "pnpm@8.15.8",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean:type": "rimraf ./dist",
+    "mv-type": "tsx ./scripts/dts-mv.ts",
     "type:node": "tsc -p tsconfig.node.json --noEmit --composite false",
-    "type:src": "vue-tsc -p tsconfig.src.json --noEmit --composite false",
-    "build:ui": "pnpm --filter ./packages/** run build",
+    "type:src": "pnpm run clean:type && vue-tsc -p tsconfig.src.json --composite false --declaration --emitDeclarationOnly",
+    "build:ui": "pnpm --filter ./packages/** run build && pnpm run mv-type",
     "build:ui-by-path": "pnpm -F ./packages/** run build"
   },
   "keywords": [],
@@ -18,7 +19,9 @@
   "devDependencies": {
     "@types/node": "^20.12.12",
     "@vitejs/plugin-vue": "^5.0.4",
+    "rimraf": "^5.0.7",
     "sass": "^1.77.2",
+    "tsx": "^4.16.0",
     "typescript": "^5.4.5",
     "vite": "^5.2.11",
     "vue-tsc": "^2.0.6"
