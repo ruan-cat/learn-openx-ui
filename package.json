@@ -7,7 +7,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:ui": "pnpm -F @openx-rc/ui... run build",
+    "type:node": "tsc -p tsconfig.node.json --noEmit --composite false",
+    "type:src": "vue-tsc -p tsconfig.src.json --noEmit --composite false",
+    "build:ui": "pnpm --filter ./packages/** run build",
     "build:ui-by-path": "pnpm -F ./packages/** run build"
   },
   "keywords": [],
@@ -18,7 +20,8 @@
     "@vitejs/plugin-vue": "^5.0.4",
     "sass": "^1.77.2",
     "typescript": "^5.4.5",
-    "vite": "^5.2.11"
+    "vite": "^5.2.11",
+    "vue-tsc": "^2.0.6"
   },
   "dependencies": {
     "lodash": "^4.17.21",
