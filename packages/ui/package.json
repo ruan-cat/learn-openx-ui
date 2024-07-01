@@ -31,12 +31,12 @@
   },
   "main": "./dist/openx-rc-ui.umd.js",
   "module": "./dist/openx-rc-ui.mjs",
-  "types": "",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "require": "./dist/openx-rc-ui.umd.js",
       "module": "./dist/openx-rc-ui.mjs",
-      "types": ""
+      "types": "./dist/index.d.ts"
     }
   },
   "files": [

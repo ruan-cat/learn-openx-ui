@@ -32,12 +32,12 @@
   },
   "main": "./dist/openx-rc-input.umd.js",
   "module": "./dist/openx-rc-input.mjs",
-  "types": "",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "require": "./dist/openx-rc-input.umd.js",
       "module": "./dist/openx-rc-input.mjs",
-      "types": ""
+      "types": "./dist/index.d.ts"
     }
   },
   "files": [
