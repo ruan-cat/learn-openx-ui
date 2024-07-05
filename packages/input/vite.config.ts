@@ -3,7 +3,13 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import path from "node:path";
 
-export default defineConfig({
+import { generateVueConfig } from '../build/build.config';
+
+const newConfig = generateVueConfig();
+
+export default newConfig;
+
+const originalConfig = defineConfig({
   // 增加插件的使用
   plugins: [vue()],
   resolve: {

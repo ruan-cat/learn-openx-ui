@@ -1,7 +1,9 @@
 // packages/ui/vite.config.ts
 import { defineConfig } from "vite";
+import { generateVueConfig } from '../build/build.config';
 
-export default defineConfig({
+
+ const originalConfig = defineConfig({
   build: {
     lib: {
       entry: "./src/index.ts",
@@ -28,3 +30,7 @@ export default defineConfig({
     },
   },
 });
+
+
+
+export default defineConfig(({ mode }) => generateVueConfig({ mode }));

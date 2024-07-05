@@ -1,4 +1,5 @@
 // scripts/dts-mv.ts
+// @deprecated https://juejin.cn/post/7263829911398449208#heading-26
 import { join } from 'node:path';
 import { readdir, cp } from 'node:fs/promises';
 

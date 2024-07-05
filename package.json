@@ -7,10 +7,9 @@
   "main": "index.js",
   "scripts": {
     "clean:type": "rimraf ./dist",
-    "mv-type": "tsx ./scripts/dts-mv.ts",
     "type:node": "tsc -p tsconfig.node.json --noEmit --composite false",
     "type:src": "pnpm run clean:type && vue-tsc -p tsconfig.src.json --composite false --declaration --emitDeclarationOnly",
-    "build:ui": "pnpm --filter ./packages/** run build && pnpm run mv-type",
+    "build:ui": "pnpm run type:src && pnpm --filter ./packages/** run build",
     "build:ui-by-path": "pnpm -F ./packages/** run build"
   },
   "keywords": [],

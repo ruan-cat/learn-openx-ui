@@ -1,7 +1,10 @@
 // packages/shared/vite.config.ts
 import { defineConfig } from "vite";
 
-export default defineConfig({
+import { generateConfig } from '../build/build.config';
+
+
+const originalConfig = defineConfig({
   build: {
     // 产物输出目录，默认值就是 dist。我们使用默认值，注释掉此字段。
     // outDir: 'dist',
@@ -39,3 +42,6 @@ export default defineConfig({
     },
   },
 });
+
+const newConfig = generateConfig();
+export default newConfig

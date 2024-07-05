@@ -33,12 +33,12 @@
   },
   "main": "./dist/openx-rc-shared.umd.js",
   "module": "./dist/openx-rc-shared.mjs",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/src/index.d.ts",
   "exports": {
     ".": {
       "require": "./dist/openx-rc-shared.umd.js",
-      "module": "./dist/openx-rc-shared.mjs",
-      "types": "./dist/index.d.ts"
+      "import": "./dist/openx-rc-shared.mjs",
+      "types": "./dist/src/index.d.ts"
     }
   },
   "files": [

@@ -2,7 +2,8 @@
 // import { ref, computed, watch } from "vue";
 
 // FIXME: 这里没有充足的类型声明提示
-import SimpleShowCard from "@input/components/simple-show-card/simple-show-card.vue";
+// import SimpleShowCard from "@input/components/simple-show-card/simple-show-card.vue";
+import SimpleShowCard from "../simple-show-card/simple-show-card.vue";
 
 defineOptions({
   name: "SimpleShowInput",

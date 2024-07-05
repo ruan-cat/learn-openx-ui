@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "vite build",
+    "build:package": "vite build --mode package",
+    "build:full": "vite build --mode full",
+    "build:full-min": "vite build --mode full-min",
+    "build": "pnpm run build:package && pnpm run build:full && pnpm run build:full-min",
     "test": "echo test"
   },
   "dependencies": {
@@ -31,12 +34,12 @@
   },
   "main": "./dist/openx-rc-ui.umd.js",
   "module": "./dist/openx-rc-ui.mjs",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/src/index.d.ts",
   "exports": {
     ".": {
       "require": "./dist/openx-rc-ui.umd.js",
-      "module": "./dist/openx-rc-ui.mjs",
-      "types": "./dist/index.d.ts"
+      "import": "./dist/openx-rc-ui.mjs",
+      "types": "./dist/src/index.d.ts"
     }
   },
   "files": [
