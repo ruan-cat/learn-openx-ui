@@ -7,10 +7,6 @@
     "test": "echo test"
   },
   "dependencies": {
-    "@types/lodash": "^4.17.4",
-    "lodash": "^4.17.21"
-  },
-  "devDependencies": {
     "@rollup/plugin-replace": "^5.0.7",
     "@types/lodash-es": "^4.17.12",
     "@vitejs/plugin-vue": "^5.0.4",
