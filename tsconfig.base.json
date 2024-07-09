@@ -39,9 +39,6 @@
       "@openx-rc/*": [
         "packages/*/src"
       ],
-      "@input/components/*": [
-        "packages/input/src/components/*"
-      ],
     }
   }
 }
